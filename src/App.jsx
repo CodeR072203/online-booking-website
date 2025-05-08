@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import SignUpPage from './pages/SignUpPage';
 import { Routes, Route } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,7 +25,11 @@ function App() {
       <section id="pricing" className="my-5">
         <Pricing />
       </section>
+
+      <Footer/>
+    
     </div>
+
   );
 }
 

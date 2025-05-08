@@ -4,6 +4,8 @@ import trialimg from '../assets/trial3.jpg';
 
 const HeroSection = () => {
   return (
+
+    
     <div
       className="hero-section d-flex flex-column align-items-center justify-content-center text-white"
       style={{
